@@ -1,17 +1,15 @@
 /*CSS for the home screen*/
 /*===============================================================================*/
-.home{
-  /*text-align: center;*/
+/*.home{
   align-content: center;
   position: relative;
   background-image: url("../images/astronomy-beautiful-clouds-355465.jpg");
-  /*background-color:#001d3b;*/
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
   background-size: 100% 100%;
   opacity: .9;
-}
+}*/
 
 /*#homeBackground{
   height: 80%;
@@ -210,6 +208,7 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 15px;
+  font-weight: bold;
 }
 
 .sidebar-nav li a:hover {
@@ -339,5 +338,87 @@ html {
     transform: translateY(-2000px);
   }
 }
+
+/*CSS for the arrow*/
+.things > .arrowContent {
+  opacity: 0;
+  float: left;
+  width: 30%;
+  height: 50%;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box;
+  position: absolute;
+    top: 40%;
+    right: -2%;
+    animation: wordAnimation 3s  forwards;
+  animation-delay: 2s;
+}
+
+.things > .arrowContent h1 {
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 150px;
+  color: #89323B;
+}
+
+/* Arrow */
+
+.arrow {
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  transform: rotate(-108deg)
+}
+
+.arrow .curve {
+  border: 2px solid #BE5F4B;
+  border-color: transparent transparent transparent #BE5F4B;
+  height: 360px;
+  width: 1200px;
+  border-radius: 230px 0 0 150px;
+}
+
+.arrow .point {
+  position: absolute;
+  left: 40px;
+  top: 315px;
+}
+
+.arrow .point:before, .arrow .point:after {
+  border: 1px solid #BE5F4B;
+  height: 25px;
+  content: "";
+  position: absolute;
+}
+
+.arrow .point:before {
+  top: -11px;
+  left: -11px;
+  transform:rotate(-74deg);
+  -webkit-transform:rotate(-74deg);
+  -moz-transform:rotate(-74deg);
+  -ms-transform: rotate(-74deg);
+}
+
+.arrow .point:after {
+  top: -20px;
+  left: 5px;
+  transform:rotate(12deg);
+  -webkit-transform: rotate(12deg);
+  -moz-transform:rotate(12deg);
+  -ms-transform: rotate(12deg);
+}
+
+
+
+
+
 
 

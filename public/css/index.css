@@ -1,0 +1,129 @@
+
+.Welcome{
+	text-align: center;
+	align-content: center;
+	position: relative;
+	background-image: url("../images/astronomy-beautiful-clouds-355465.jpg");
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	background-size: 100% 100%;
+	
+}
+.welcomeText{
+	z-index: 100;
+	position: absolute;
+	top: 50%;
+	right: 40%;
+	text-align: center;
+	color: white;
+}
+
+.enter{
+	display: inline-block;
+	height: 70px;
+	width: 140px;
+	border-radius:100%;
+	line-height: 70px;
+	color: black;
+	background-color: gray;
+	border-color: gray;
+	opacity: 0.8;
+	align-self: center;
+}
+.enter:hover{
+	background-color: white;
+	color: black;
+}
+
+button{
+	align-items: center;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+  /*padding: 1em 2em;*/
+  font-size: 18px;
+  
+  color: white;
+}
+
+h1,h2,h3 {
+  font-weight: 200;
+  margin: 0;
+  color: white;
+  z-index: 100;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: white;
+  font-size: 2em;
+}
+
+/*CSS for the shooting stars*/
+@keyframes particleAnimation
+{
+    from {
+        left: -100px;
+    }
+    to {
+        left: calc( 100% + 100px );
+    }
+}
+
+.p{
+  position:fixed;
+  left:0px;
+  top:50px;
+  width:1px;
+  height:1px;
+  background-color:white;
+  position:fixed;
+  animation-name:particleAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.p::before{
+  position:absolute;
+  display:block;
+  content:"";
+  width:100px;
+  right:1px;
+  top:0px;
+  height:1px;
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100%); 
+}
+.p-1{
+  animation-duration:10s;
+  padding: 0!important;
+}
+.p-2{
+  animation-duration:5s;
+  top:30%;
+  padding: 0!important;
+}
+.p-3{
+  animation-duration:10s;
+  padding: 0!important;
+  top:60%;
+}
+.p-4{
+	animation-duration:7s;
+	padding: 0!important;
+	top:50%;
+}
+.p-5{
+	animation-duration:6s;
+	padding: 0!important;
+	top:5%;
+}
+.p-6{
+	animation-duration:8s;
+	padding: 0!important;
+	top:40%;
+}
+
+
+
+
+

@@ -4,3 +4,11 @@ body {
   /*position: fixed;*/
   background-color: #34495e;
 }
+
+.card{
+	height: 350px;
+}
+
+.card-image{
+	height:175px;
+}

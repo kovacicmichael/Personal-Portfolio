@@ -47,6 +47,12 @@ body {
   opacity: .6;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
+i{
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+}
 #navFooter{
   position: absolute;
   bottom: 0;

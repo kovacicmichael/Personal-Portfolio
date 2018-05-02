@@ -12,3 +12,8 @@ body {
 .card-image{
 	height:175px;
 }
+
+#constructor{
+	font-size: 17pt;
+	line-height: 22px;
+}

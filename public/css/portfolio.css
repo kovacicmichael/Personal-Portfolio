@@ -4,7 +4,10 @@ body {
   /*position: fixed;*/
   background-color: #34495e;
 }
-
+#portfolioTitle{
+	font-size: 34pt;
+	color: white;
+}
 .card{
 	height: 350px;
 }
@@ -16,4 +19,8 @@ body {
 #constructor{
 	font-size: 17pt;
 	line-height: 22px;
+}
+
+#crystal{
+	font-size: 15pt;
 }

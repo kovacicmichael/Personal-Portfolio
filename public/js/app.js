@@ -36,14 +36,3 @@ $("#button").on("click", function(){
 	console.log("click")
 	openNav();
 })
-  /* Set the width of the side navigation to 250px */
-function openNav() {
-	console.log("open")
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-	console.log("close")
-    document.getElementByClassName("arrowContent")[0].style.top = "10%";
-}

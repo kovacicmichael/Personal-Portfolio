@@ -1,7 +1,7 @@
  
  $("document").ready(function(){
  	//$("#sidebar-wrapper").toggleClass("active");
- 	$(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
+ 	//$(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
 
  	moveArrow();
  })

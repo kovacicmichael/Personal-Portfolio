@@ -1,35 +1,43 @@
 body {
-  /*width: 100%;
-  height: 100%;*/
-  /*position: fixed;*/
+  width: 100%;
+  height: 100%;
+  position: fixed;
   background-color: #34495e;
-
 }
-#portfolioTitle{
+
+#techTitle{
 	font-size: 34pt;
 	color: white;
 }
-.card{
-	height: 350px;
-	max-width: 235px;
+
+.techDescription{
+	background-color: white;
+	height: 250px;
+	
+
 }
 
-.card-image{
-	height:175px;
-}
-.row{
-	margin-bottom: 0;
+a{
+	color: white;
 }
 
-#constructor{
-	font-size: 17pt;
-	line-height: 22px;
-}
 
-#crystal{
-	font-size: 15pt;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The side navigation menu */
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
@@ -132,12 +140,6 @@ nav ul li{
 }
 
 
-
-
-
-
-
-
 /*Star backgroun CSS*/
 html {
   height: 100%;
@@ -210,3 +212,4 @@ html {
     transform: translateY(-2000px);
   }
 }
+

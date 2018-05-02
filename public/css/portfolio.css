@@ -47,7 +47,11 @@ body {
   opacity: .6;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
-
+#navFooter{
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+}
 .sidebar-nav {
   position: absolute;
   top: 0;

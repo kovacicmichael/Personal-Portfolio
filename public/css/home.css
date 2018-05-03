@@ -197,6 +197,25 @@ body {
   font-size: 26px;
   }
 }
+@media only screen and (max-width: 640px) {
+  .contentOne{
+  font-size: 20px;
+  }
+  .contentTwo{
+  font-size: 20px;
+  }
+  .contentThree{
+  font-size: 20px;
+  }
+  .arrowContent{
+    top: 11%!important;
+    right: -8%!important;
+  }
+  .arrow .curve {
+    height: 220px!important;
+    width: 175px!important;
+  }
+}
 @media only screen and (max-width: 600px) {
   .contentOne{
   font-size: 20px;
@@ -225,6 +244,29 @@ body {
   .arrowContent{
     top: 4%!important;
     right: 25%!important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .contentOne{
+  font-size: 12px;
+  }
+  .contentTwo{
+  font-size: 12px;
+  }
+  .contentThree{
+  font-size: 12px;
+  }
+  .arrowContent{
+    top: 11%!important;
+    right: 11%!important;
+  }
+  .content__container {
+    padding:0;
+  }
+  .arrow .point {
+    /*position: absolute;*/
+    left: 24px!important;
+    top: 191px!important;
   }
 }
 

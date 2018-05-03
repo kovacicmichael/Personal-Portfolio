@@ -211,8 +211,21 @@ body {
     top: 4%!important;
     right: 14%!important;
   }
-
-
+}
+@media only screen and (max-width: 451px) {
+  .contentOne{
+  font-size: 15px;
+  }
+  .contentTwo{
+  font-size: 15px;
+  }
+  .contentThree{
+  font-size: 15px;
+  }
+  .arrowContent{
+    top: 4%!important;
+    right: 25%!important;
+  }
 }
 
 

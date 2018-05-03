@@ -18,6 +18,9 @@
   });
 function moveArrow(){
   if($(".active")[0]){
+    if ($(window).width() < 1275) {
+      $(".arrowContent").hide();
+    }
       console.log("active")
       $(".arrowContent").css("top", '40%');
       $(".arrowContent").css("right", '7%');
@@ -35,7 +38,7 @@ function moveArrow(){
 function moveArrowClick(){
   
 	if($(".active")[0]){
- 		if ($(window).width() < 600) {
+ 		if ($(window).width() < 1275) {
      $(".arrowContent").hide();
     }
     else {

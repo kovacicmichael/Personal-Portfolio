@@ -176,6 +176,27 @@ body {
 }
 
 /*Media Queries*/
+@media only screen and (max-width: 1235px) {
+  .arrowContent{
+    top: 4%!important;
+    right: -10%!important;
+  }
+}
+@media only screen and (max-width: 915px) {
+  .arrowContent{
+    top: 4%!important;
+    right: 3%!important;
+  }
+  .contentOne{
+  font-size: 26px;
+  }
+  .contentTwo{
+  font-size: 26px;
+  }
+  .contentThree{
+  font-size: 26px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .contentOne{
   font-size: 20px;

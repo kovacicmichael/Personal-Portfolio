@@ -6,39 +6,29 @@ body {
 }
 
 #techTitle{
+  margin-top: 50px;
+  margin-bottom: 20px;
 	font-size: 34pt;
 	color: white;
 }
 
 .techDescription{
-  
-	background-color: white;
-	height: 250px;
+
+  padding:25px;
+	/*padding-top: 50px;*/
+  background-color: white;
+	/*height: 50%;*/
   opacity: .6;
-	
+	border-radius: 8%;
 
 }
 
 a{
 	color: #bd5e4a;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.row .col.l7{
+  margin-right: 50px;
+}
 /* The side navigation menu */
 /* Side Menu */
 #sidebar-wrapper {

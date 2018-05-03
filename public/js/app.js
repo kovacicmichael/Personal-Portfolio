@@ -12,19 +12,42 @@
     $("#sidebar-wrapper").toggleClass("active");
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
     $(this).toggleClass("active");
+    $(".arrowContent").css("opacity", '1');
 
-    moveArrow();
+    moveArrowClick();
   });
-
 function moveArrow(){
+  if($(".active")[0]){
+      console.log("active")
+      $(".arrowContent").css("top", '40%');
+      $(".arrowContent").css("right", '7%');
+      $(".arrow").css("transform", "rotate(-108deg)");
+      $(".arrowContent").css("transform", "scaleX(1)");
+  }else{
+
+    $(".arrowContent").css("top", '4%');
+    $(".arrowContent").css("right", '-17%');
+    $(".arrowContent").css("transform", "scaleX(-1)");
+    $(".arrow").css("transform", "rotate(132deg)");
+  }
+}
+
+function moveArrowClick(){
+  
 	if($(".active")[0]){
- 		console.log("active")
- 		$(".arrowContent").css("top", '40%');
- 		$(".arrowContent").css("right", '7%');
- 		$(".arrow").css("transform", "rotate(-108deg)");
- 		$(".arrowContent").css("transform", "scaleX(1)");
+ 		if ($(window).width() < 600) {
+     $(".arrowContent").hide();
+    }
+    else {
+       console.log("active")
+      $(".arrowContent").css("top", '40%');
+      $(".arrowContent").css("right", '7%');
+      $(".arrow").css("transform", "rotate(-108deg)");
+      $(".arrowContent").css("transform", "scaleX(1)");
+    }
  	}else{
- 		console.log("notactive")
+ 		$(".arrowContent").show();
+
  		$(".arrowContent").css("top", '4%');
  		$(".arrowContent").css("right", '-17%');
  		$(".arrowContent").css("transform", "scaleX(-1)");
@@ -32,7 +55,3 @@ function moveArrow(){
  	}
 }
 
-$("#button").on("click", function(){
-	console.log("click")
-	openNav();
-})

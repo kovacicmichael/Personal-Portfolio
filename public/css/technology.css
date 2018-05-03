@@ -22,7 +22,9 @@ body {
 	border-radius: 8%;
 
 }
-
+#tagcloud{
+  overflow: visible;
+}
 a{
 	color: #bd5e4a;
 }
@@ -176,11 +178,10 @@ nav ul li{
 
 
 /*Star backgroun CSS*/
-html {
+/*html {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  /*overflow: hidden;*/
-}
+}*/
 
 #stars {
   width: 1px;

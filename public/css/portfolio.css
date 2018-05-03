@@ -47,11 +47,50 @@ body {
   opacity: .6;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
-i{
+/*i{
   display: inline;
   position: absolute;
   bottom: 0;
   right: 40%;
+}*/
+.icons{
+  border-bottom: 1pt solid white;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  height: 10%;
+  width: 90%;
+}
+#linkedin{
+  display: inline;
+  font-size: 18pt;
+  position: absolute;
+  bottom: 25%;
+  right: 28%;
+}
+#github{
+  display: inline;
+  font-size: 18pt;
+  position: absolute;
+  bottom: 25%;
+  right: 68%;
+}
+#github:hover{
+  color: gray;
+}
+#linkedin:hover{
+  color: gray;
+}
+#email{
+  display: inline;
+  font-size: 18pt;
+  position: absolute;
+  bottom: 25%;
+  right: 48%;
+}
+#email:hover{
+  color: gray;
+  cursor: pointer;
 }
 #navFooter{
   position: absolute;

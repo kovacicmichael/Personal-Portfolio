@@ -4,3 +4,12 @@
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
     $(this).toggleClass("active");
   });
+
+
+ $(".copyToClipboard").click(function(){
+
+	console.log($(this).attr('data-clipboard-text'))
+
+
+});
+

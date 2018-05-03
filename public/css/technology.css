@@ -11,14 +11,16 @@ body {
 }
 
 .techDescription{
+  
 	background-color: white;
 	height: 250px;
+  opacity: .6;
 	
 
 }
 
 a{
-	color: white;
+	color: #bd5e4a;
 }
 
 
@@ -55,7 +57,50 @@ a{
   opacity: .6;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
-
+.icons{
+  border-bottom: 1pt solid white;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  height: 10%;
+  width: 90%;
+}
+#linkedin{
+  display: inline;
+  font-size: 18pt;
+  position: absolute;
+  bottom: 25%;
+  right: 28%;
+}
+#github{
+  display: inline;
+  font-size: 18pt;
+  position: absolute;
+  bottom: 25%;
+  right: 68%;
+}
+#github:hover{
+  color: gray;
+}
+#linkedin:hover{
+  color: gray;
+}
+#email{
+  display: inline;
+  font-size: 18pt;
+  position: absolute;
+  bottom: 25%;
+  right: 48%;
+}
+#email:hover{
+  color: gray;
+  cursor: pointer;
+}
+#navFooter{
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+}
 .sidebar-nav {
   position: absolute;
   top: 0;

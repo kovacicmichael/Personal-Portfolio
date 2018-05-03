@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -60,6 +61,16 @@
 	          <a class="js-scroll-trigger" href="#contact">Contact</a>
 	        </li>
 	      </ul>
+	      <div class="icons">
+              <a href="https://www.linkedin.com/in/michael-kovacic-16076417/" target="_blank"><i id="linkedin" class="fab fa-linkedin-in"></i></a>
+              <br />
+              <a href="https://github.com/kovacicmichael" target="_blank"><i id="github" class="fab fa-github-alt"></i></a>
+              <br />
+              <a class="tooltipped copyToClipboard" data-clipboard-text="kovacic316@gmail.com" data-position="top" data-tooltip="Click here to copy my email to your clipboard!"><i id="email" class="far fa-envelope"></i></a>
+          </div>
+	      <footer id="navFooter">
+	      	&copy 2018 Kovacic
+	      </footer>
 	    </nav>
 
 
@@ -75,7 +86,12 @@
 		<div class="row">
 			<div class="col s12 m6 l6">
 				<div class="techDescription">
-					This is a paragraph about myself
+					<p>I am a Full Stack Developer with demonstrated proficiency in various languages and frameworks.  </p>
+					<br>
+					<p><strong>Backend:</strong> Node.js, Express.js, php(basic proficiency), </p>
+					<p><strong>Data:</strong> MySQL, MongoDB, Sequelize, Mongoose, Firebase</p>
+					<p><strong>FrontEnd:</strong> HTML5, CSS3, Javascript, React, jQuery, Bootstrap, Materialize</p>
+					<p><strong>Deployment:</strong> Heroku, GitHub Pages, AWS EC2 (basic proficiency)</p>
 				</div>
 			</div>
 			<div class="col s12 m6 l5 offset-l1">
@@ -111,13 +127,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
-
-
-
-
 
 	</div>
 
@@ -157,6 +166,12 @@
 
 	    <script type="text/javascript" src="js/technology.js"></script>
 	    <script type="text/javascript" src="js/tagcloud.jquery.js"></script>
+	    <script type="text/javascript" src="js/clipboard.min.js"></script>
+	    <script type="text/javascript" src="js/clipboard.min.js"></script>
+		<script type="text/javascript">
+			var clip = new ClipboardJS('.copyToClipboard');
+
+		</script>
 
 </body>
 </html>

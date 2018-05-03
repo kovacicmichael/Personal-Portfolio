@@ -124,6 +124,18 @@ h2 {
 }
 
 /*Media Queries*/
+@media only screen and (max-width: 769px) {
+
+  html{
+    font-size: 13px!important;
+  }
+  
+  .enter{
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+  }
+}
 @media only screen and (max-width: 600px) {
 
   html{
@@ -145,6 +157,17 @@ html{
     height: 35px;
     width: 70px;
     line-height: 35px;
+  }
+}
+@media only screen and (max-width: 376px) {
+html{
+    font-size: 6px!important;
+  }
+  
+  .enter{
+    height: 25px;
+    width: 50px;
+    line-height: 25px;
   }
 }
 

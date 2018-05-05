@@ -2,7 +2,7 @@ body {
   /*width: 100%;
   height: 100%;*/
   /*position: fixed;*/
-  background-color: #34495e;
+  background-color: #1b2735;
 
 }
 #portfolioTitle{
@@ -259,3 +259,19 @@ nav ul li{
     transform: translateY(-2000px);
   }
 }
+
+
+@media only screen and (max-width: 427px) {
+  #portfolioTitle{
+  font-size: 26pt;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  #portfolioTitle{
+  font-size: 20pt;
+  }
+
+}
+
+

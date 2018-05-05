@@ -65,7 +65,7 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: #34495e;
+  background-color: #1b2735;
 }
 
 .content {
@@ -215,6 +215,11 @@ body {
     height: 220px!important;
     width: 175px!important;
   }
+  .arrow .point {
+    /*position: absolute;*/
+    left: 24px!important;
+    top: 191px!important;
+  }
 }
 @media only screen and (max-width: 600px) {
   .contentOne{
@@ -227,8 +232,8 @@ body {
   font-size: 20px;
   }
   .arrowContent{
-    top: 4%!important;
-    right: 14%!important;
+    top: 11%!important;
+    right: 8%!important;
   }
 }
 @media only screen and (max-width: 451px) {
@@ -242,8 +247,8 @@ body {
   font-size: 15px;
   }
   .arrowContent{
-    top: 4%!important;
-    right: 25%!important;
+    top: 11%!important;
+    right: 20%!important;
   }
 }
 @media only screen and (max-width: 380px) {

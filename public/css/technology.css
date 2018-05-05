@@ -23,7 +23,7 @@ body {
 
 }
 #tagcloud{
-  overflow: visible;
+  overflow: scroll!important;
 }
 a{
 	color: #bd5e4a;

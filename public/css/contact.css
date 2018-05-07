@@ -5,34 +5,74 @@ body {
   background-color: #1b2735;
 
 }
-#portfolioTitle{
-	font-size: 34pt;
-	color: white;
+
+.contactContainer{
+  background-color: #34495e;
+  position: relative;
+  height: 485px;
+  margin-top: 12%;
 }
-.card{
-	height: 350px;
-	/*max-width: 235px;*/
-}
-.card .card-action a{
+.input-field .prefix.active{
   color: #bd5e4a;
 }
-
-.card-image{
-	height:150px;
+input{
+  color: white;
 }
-.row{
-	margin-bottom: 0;
-}
+textarea{
+color: white!important;
 
-#constructor{
-	font-size: 17pt;
-	line-height: 22px;
 }
-
-#crystal{
-	font-size: 15pt;
+textarea.materialize-textarea:focus:not([readoonly]){
+border-bottom: 1px solid #bd5e4a!important;
+border-bottom-color: #bd5e4a!important;
+box-shadow: 0 1px 0 0 #bd5e4a!important;
 }
 
+textarea.materialize-textarea:focus:not([readoonly])+label{
+  color: #bd5e4a;
+}
+textarea.materialize-textarea.valid{
+  border-bottom: 1px solid #bd5e4a!important;
+  border-bottom-color: #bd5e4a!important;
+  box-shadow: 0 1px 0 0 #bd5e4a!important;
+}
+input[type=email]:focus:not([readonly]){
+  border-bottom: 1px solid #bd5e4a!important;
+border-bottom-color: #bd5e4a!important;
+box-shadow: 0 1px 0 0 #bd5e4a!important;
+}
+input[type=email]:focus:not([readonly])+label{
+  color:#bd5e4a;
+}
+input[type=text]:focus:not([readonly]){
+  border-bottom: 1px solid #bd5e4a!important;
+  border-bottom-color: #bd5e4a!important;
+  box-shadow: 0 1px 0 0 #bd5e4a!important;
+}
+input[type=text]:focus:not([readonly])+label{
+ color:#bd5e4a;
+  }
+input[type=text].valid{
+  border-bottom: 1px solid #9e9e9e!important;
+  border-bottom-color: #9e9e9e!important;
+  box-shadow: 0 1px 0 0 #737c85!important;
+}
+input[type=email].valid{
+  border-bottom: 1px solid #9e9e9e!important;
+  border-bottom-color: #9e9e9e!important;
+  box-shadow: 0 1px 0 0 #737c85!important;
+}
+input[type=email].invalid{
+  border-bottom: 1px solid #9e9e9e!important;
+  border-bottom-color: #9e9e9e!important;
+  box-shadow: 0 1px 0 0 #737c85!important;
+  }
+.btn{
+  background-color: #bd5e4a!important;
+  position: absolute;
+  right: 20%;
+  margin-bottom: 15px;
+}
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;

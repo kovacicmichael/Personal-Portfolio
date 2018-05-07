@@ -30,9 +30,12 @@ a:focus{
   opacity: 1;
 }
 .aboutDes{
-  padding:15px;
+  padding:30px;
   background-color: #34495e;
-  color: white;
+  color: #a3a8ae;
+  border-radius: 12%;
+  height: 370px;
+  font-size: 12pt;
 }
 .thatsMe{
   opacity: 0;

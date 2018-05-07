@@ -17,7 +17,7 @@
 	<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
 	</script>   
 	
-	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -72,46 +72,53 @@
 	      	&copy 2018 Kovacic
 	      </footer>
 	    </nav>
-		<div class="row">
-	    		<div class="col s12 m12 l12">
-	    			<h1 class="title">A Little About Myself</h1>
-	    		</div>
-	    </div>
-	    <div class="row">
-			<div class="col s12 m4 l3">
-				<img id="profilePic" src="https://s3.us-east-2.amazonaws.com/personalportfolio1/prof+profile+pic.jpg" height="200px" width="200px">
-			</div>	
-			<div class="col s12 m8 l7">
-				<div class="aboutDes">
-				<p>Full Stack Web Developer with a gift for linking technical know how to creative ideas. I am experienced in Javascript, Node.js, Express.js, MySQL and MongoDB, php, and more. I have a passion for discovery and learning, and am constantly excited about the possibilities this industry has to offer. After spending almost two years in a foreign country learning a new language, I understand the amount of effort it takes to succeed in something challenging; I love the opportunity to face a new problem and persevere until I have found the solution. Much of my time is spent attempting to increase my knowledge and experience to keep pace with a continuously growing industry. I am currently looking to apply my experience with a like minded company to help create dynamic applications that help improve its users quality of life.</p>
-				</div>
-				<br>
-			</div>
-			<div class="col s12 m1 l2">
-				<a href="resume/Michael Kovacic Resume.pdf" download>Download My Resume Here</a>
-			</div>		
+	    <div class="container contactContainer">
+		    <div class="row">
+			    <form class="col s12">
+			      <div class="row">
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">account_circle</i>
+			          <input id="icon_prefix" type="text" class="validate">
+			          <label for="icon_prefix">Name</label>
+			        </div>
+			      </div>
+			      <div class="row">
+			        <div class="input-field col s12">
+			        	<i class="material-icons prefix">email</i>
+			          <input id="text" type="email" class="validate">
+			          <label for="email">Email</label>
+			        </div>
+			      </div>
+			      <div class="row">
+			      	<div class="input-field col s12">
+			      		<i class="material-icons prefix">subject</i>
+			          <input id="subject" type="text">
+			          <label for="subject">Subject</label>
+			        </div>
+			      </div>
+			      <div class="row">
+			        <div class="input-field col s12">
+			          <i class="material-icons prefix">message</i>
+			          <textarea id="textarea1" class="materialize-textarea"></textarea>
+			          <label for="textarea1">Message</label>
+			        </div>
+				  </div> 
+				  <div class="row">
+					  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+					    <i class="material-icons right">send</i>
+					  </button>
+				  </div>
+			    </form>
+	  		</div>
 		</div>
-
-
-
 
 
 
 	</div>
 
 
-
-
-
-
-		<script type="text/javascript" src="js/about.js"></script>
-	    <script type="text/javascript" src="js/clipboard.min.js"></script>
-		<script type="text/javascript">
-			var clip = new ClipboardJS('.copyToClipboard');
-
-		</script>
+<script type="text/javascript" src="js/contact.js"></script>
 
 
 </body>
-
 </html>

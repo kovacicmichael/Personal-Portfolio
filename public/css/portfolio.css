@@ -10,7 +10,7 @@ body {
 	color: white;
 }
 .card{
-	height: 350px;
+	/*height: 350px;*/
 	/*max-width: 235px;*/
 }
 .card .card-action a{
@@ -32,6 +32,16 @@ body {
 #crystal{
 	font-size: 15pt;
 }
+#train{
+  font-size: 15pt;
+}
+h3{
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+
+
 
 /* Side Menu */
 #sidebar-wrapper {

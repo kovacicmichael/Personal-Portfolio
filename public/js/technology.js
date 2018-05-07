@@ -7,6 +7,6 @@ $(".menu-toggle").click(function(e) {
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
     $(this).toggleClass("active");
 
-    moveArrow();
+    
   });
 

@@ -1,0 +1,27 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Michael's Personal Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kovacicmichael/Personal-Portfolio.git"
+  },
+  "author": "Michael Kovacic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kovacicmichael/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/kovacicmichael/Personal-Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mailgun-js": "^0.18.0",
+    "path": "^0.12.7"
+  }
+}

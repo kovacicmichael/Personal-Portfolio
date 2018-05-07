@@ -25,7 +25,7 @@
       crossorigin="anonymous"></script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script type="text/javascript" src="src/tagcloud.jquery.js"></script>  
+	<!-- <script type="text/javascript" src="src/tagcloud.jquery.js"></script>   -->
       <!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -43,22 +43,22 @@
 	    <nav id="sidebar-wrapper">
 	      <ul class="sidebar-nav">
 	        <li class="sidebar-brand">
-	          <a class="js-scroll-trigger" href="home.html">Michael Kovacic</a>
+	          <a class="js-scroll-trigger" href="home">Michael Kovacic</a>
 	        </li>
 	        <li class="sidebar-nav-item">
-	          <a class="js-scroll-trigger" href="home.html">Home</a>
+	          <a class="js-scroll-trigger" href="home">Home</a>
 	        </li>
 	        <li class="sidebar-nav-item">
-	          <a class="js-scroll-trigger" href="portfolio.html">Portfolio</a>
+	          <a class="js-scroll-trigger" href="portfolio">Portfolio</a>
 	        </li>
 	        <li class="sidebar-nav-item">
-	          <a class="js-scroll-trigger" href="technology.html">Technology</a>
+	          <a class="js-scroll-trigger" href="technology">Technology</a>
 	        </li>
 	        <li class="sidebar-nav-item">
-	          <a class="js-scroll-trigger" href="about.html">About</a>
+	          <a class="js-scroll-trigger" href="about">About</a>
 	        </li>
 	        <li class="sidebar-nav-item">
-	          <a class="js-scroll-trigger" href="contact.html">Contact</a>
+	          <a class="js-scroll-trigger" href="contact">Contact</a>
 	        </li>
 	      </ul>
 	      <div class="icons">
@@ -74,25 +74,25 @@
 	    </nav>
 	    <div class="container contactContainer">
 		    <div class="row">
-			    <form class="col s12">
+			    <form class="col s12" id="contact">
 			      <div class="row">
 			        <div class="input-field col s12">
 			          <i class="material-icons prefix">account_circle</i>
-			          <input id="icon_prefix" type="text" class="validate">
+			          <input class="name" id="icon_prefix" type="text" class="validate">
 			          <label for="icon_prefix">Name</label>
 			        </div>
 			      </div>
 			      <div class="row">
 			        <div class="input-field col s12">
 			        	<i class="material-icons prefix">email</i>
-			          <input id="text" type="email" class="validate">
+			          <input class= "email" id="text" type="email" class="validate">
 			          <label for="email">Email</label>
 			        </div>
 			      </div>
 			      <div class="row">
 			      	<div class="input-field col s12">
 			      		<i class="material-icons prefix">subject</i>
-			          <input id="subject" type="text">
+			          <input class="subject" id="subject" type="text">
 			          <label for="subject">Subject</label>
 			        </div>
 			      </div>
@@ -104,7 +104,10 @@
 			        </div>
 				  </div> 
 				  <div class="row">
-					  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+				  	<p id="contactMessage">Thank you for your interest, Michael will get back with you promptly.</p>
+				  </div>
+				  <div class="row">
+					  <button class="btn waves-effect waves-light" type="submit" id="submit" name="action">Submit
 					    <i class="material-icons right">send</i>
 					  </button>
 				  </div>

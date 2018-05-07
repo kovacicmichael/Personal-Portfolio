@@ -21,6 +21,7 @@ a:focus{
 }
 .title{
   color: white;
+  font-size: 34pt;
 }
 
 #profilePic{
@@ -34,8 +35,8 @@ a:focus{
   background-color: #34495e;
   color: #a3a8ae;
   border-radius: 12%;
-  height: 370px;
   font-size: 12pt;
+  max-width: 70%;
 }
 .thatsMe{
   opacity: 0;
@@ -49,7 +50,15 @@ a:focus{
   animation: wordAnimation 4s  forwards;
   animation-fill-mode: forwards;
 }
+.resumeContainer{
+  position: relative;
+  height: 200px;
+}
+#resume{
+  position: absolute;
+  bottom:0;
 
+}
 @keyframes wordAnimation {
   from{
     opacity:0;
@@ -330,3 +339,44 @@ nav ul li{
     transform: translateY(-2000px);
   }
 }
+
+/*Media Queries*/
+@media only screen and (max-width: 690px) {
+  .title{
+    font-size: 30pt;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title{
+    font-size: 26pt;
+  }
+  .resumeContainer{
+  position: relative;
+  height: 25px;
+  }
+  #resume{
+    position: absolute;
+    bottom:0;
+    left: 33px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .title{
+    font-size: 22pt;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .title{
+    font-size: 18pt;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .title{
+    font-size: 16pt;
+  }
+}
+
+
+
